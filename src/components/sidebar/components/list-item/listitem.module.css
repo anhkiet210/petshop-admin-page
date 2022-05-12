@@ -1,0 +1,11 @@
+.sidebarList .item{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+  cursor: pointer;
+}
+
+.sidebarList li span {
+  margin-left: 8px;
+}

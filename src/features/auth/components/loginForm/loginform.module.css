@@ -1,0 +1,22 @@
+.login_form {
+  padding: 32px 48px;
+  box-shadow: var(--shadow);
+  border-radius: var(--radius-2);
+}
+
+.login_heading {
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-bottom: 32px;
+  font-size: 24px;
+  text-align: center;
+  color: var(--black);
+}
+
+.btn_login {
+  padding: 10px 12px;
+  background-color: var(--blue);
+  color: var(--white);
+  border-radius: var(--radius);
+  margin-top: 8px;
+}

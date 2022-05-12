@@ -1,0 +1,16 @@
+.input {
+  border: 1px solid var(--gray);
+  outline: none;
+  padding: 10px 12px;
+  border-radius: var(--radius);
+  font-size: 0.9rem;
+  min-width: 350px;
+  margin-bottom: 24px;
+}
+
+.label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 0.9rem;
+  font-weight: 600;
+}

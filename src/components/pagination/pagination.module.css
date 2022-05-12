@@ -1,0 +1,15 @@
+.list {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 15px;
+}
+
+.item {
+  list-style: none;
+  padding: 8px 14px;
+  color: var(--white);
+  background-color: var(--blue);
+  margin-left: 10px;
+  border-radius: var(--radius);
+  cursor: pointer;
+}

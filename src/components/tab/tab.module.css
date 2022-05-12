@@ -1,0 +1,16 @@
+.tab {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.tab_item {
+  margin-left: 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 4px 6px;
+  border-radius: var(--radius);
+}
+
+.tab_item:first-child {
+  margin-left: 0;
+}

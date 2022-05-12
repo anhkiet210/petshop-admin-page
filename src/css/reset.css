@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "roboto";
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li {
+  list-style: none;
+}
+
+button,
+select {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 100%;
+}
+
+td,
+th {
+  border: none;
+  text-align: center;
+  padding: 10px;
+  font-size: 0.9rem;
+  min-height: 80px;
+}
+
+tr:nth-child(even) {
+  background-color: var(--green-0);
+}
+
+.ck.ck-editor__main > .ck-editor__editable:not(.ck-focused) {
+  min-height: 250px;
+  max-height: 250px;
+  margin-bottom: 24px;
+}
+
+.btn-edit {
+  padding: 6px 8px;
+  border-radius: var(--radius);
+  background-color: var(--yellow);
+  color: var(--black);
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.btn-delete {
+  padding: 6px 8px;
+  border-radius: var(--radius);
+  background-color: var(--red);
+  color: var(--white);
+  cursor: pointer;
+}
+
+.processing {
+  padding: 4px 6px;
+  color: var(--black-1);
+  border-radius: var(--radius);
+  background-color: var(--yellow);
+}
+
+.shipping {
+  padding: 4px 6px;
+  color: var(--white);
+  border-radius: var(--radius);
+  background-color: var(--blue-1);
+}
+
+.deliverd {
+  padding: 4px 6px;
+  color: var(--white);
+  border-radius: var(--radius);
+  background-color: var(--green-3);
+}
+
+.refuse {
+  padding: 4px 6px;
+  color: var(--white);
+  border-radius: var(--radius);
+  background-color: var(--red-1);
+}

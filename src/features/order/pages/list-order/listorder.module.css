@@ -1,0 +1,23 @@
+.list_order {
+  padding: 20px;
+  box-shadow: var(--shadow);
+  margin: 24px 0;
+  border-radius: var(--radius-2);
+}
+
+.list_order_heading {
+  padding-bottom: 20px;
+  font-weight: 500;
+}
+
+.order_info_group {
+  margin-bottom: 16px;
+}
+
+.order_info_group h5 {
+  margin-bottom: 8px;
+}
+
+.order_info_group span {
+  font-size: 0.9rem;
+}

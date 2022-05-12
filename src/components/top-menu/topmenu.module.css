@@ -1,0 +1,40 @@
+.top_menu {
+  padding: 0 50px 20px 20px;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.top_menu_wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.avatar img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.name {
+  display: inline-block;
+  margin-left: 16px;
+  font-size: 1rem;
+}
+
+.item {
+  font-size: 0.9rem;
+  margin-bottom: 16px;
+  color: var(--white);
+  cursor: pointer;
+  transition: 0.5s var(--transition);
+}
+
+.item:hover {
+  margin-left: 8px;
+}
+
+.item:last-child {
+  margin-bottom: 0;
+}
