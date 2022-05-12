@@ -7,10 +7,9 @@ Chart.propTypes = {};
 
 function Chart(props) {
   const { monthlyRevenue } = props
-  console.log(monthlyRevenue);
   const chartData = useMemo(() => {
     const chart = {
-      series: [0, 0, 0, 1000000000, 0, 0],
+      series: [12, 32, 43, 56, 89],
       options: {
         chart: {
           type: "polarArea",

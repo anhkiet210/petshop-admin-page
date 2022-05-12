@@ -43,12 +43,12 @@ function ListItem(props) {
         list_link: "/list-cat",
       },
     },
-    // {
-    //   icon: <AccountCircleOutlinedIcon></AccountCircleOutlinedIcon>,
-    //   title: "Người dùng",
-    //   subItem: false,
-    //   link: "/list-user",
-    // },
+    {
+      icon: <AccountCircleOutlinedIcon></AccountCircleOutlinedIcon>,
+      title: "Người dùng",
+      subItem: false,
+      link: "/list-user",
+    },
     {
       icon: <LocalMallOutlinedIcon></LocalMallOutlinedIcon>,
       title: "Đơn hàng",
