@@ -39,7 +39,7 @@ function Dashboard(props) {
       () => {
         const temp = []
         let isTrue = false
-        for(let i = 1; i <= 12; i++){
+        for(let i = 1; i <= 6; i++){
           for(let j = 0; j < deliverd?.length; j++){
             const tempdate = new Date(deliverd[j]?.createdAt).getMonth() + 1
             tempdate === i ? isTrue = true : isTrue = false

@@ -7,8 +7,10 @@ Chart.propTypes = {};
 
 function Chart(props) {
   const { monthlyRevenue } = props
-  const chartData = useMemo(() => {
+  
+   
     const chart = {
+      //  series: monthlyRevenue,
       series: [12, 32, 43, 56, 89],
       options: {
         chart: {
@@ -35,10 +37,10 @@ function Chart(props) {
         ],
       },
     };
-    return chart;
-  }, []);
 
-  const [chart, setChart] = useState(chartData);
+   
+
+
 
   return (
     <div className={styles.chart}>
